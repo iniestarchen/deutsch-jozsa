@@ -1,0 +1,32 @@
+{
+  "id": "deutsch-jozsa",
+  "name": "Deutsch-Jozsa Algorithm",
+  "category": "search",
+  "description": "Determine in one query whether a 3-bit Boolean function is constant or balanced (oracle: f = x\u2080 \u2295 x\u2081 \u2295 x\u2082).",
+  "long_description": "The Deutsch-Jozsa algorithm decides, with certainty and a single oracle query, whether a function f:{0,1}^n \u2192 {0,1} is constant (same output for all inputs) or balanced (outputs 0 for exactly half the inputs). Classically, this requires 2^(n-1)+1 queries in the worst case. The circuit uses a phase-kickback oracle and measures: all-zeros \u2192 constant, any-one \u2192 balanced.",
+  "difficulty": "beginner",
+  "qubit_count": 4,
+  "clbit_count": 3,
+  "gate_count": 9,
+  "depth": 5,
+  "tags": [
+    "deutsch-jozsa",
+    "oracle",
+    "exponential-speedup",
+    "query-complexity"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "|111\u27e9 (balanced function) \u2014 at least one c[i]=1",
+  "references": [
+    {
+      "title": "Deutsch & Jozsa (1992). Rapid Solution of Problems by Quantum Computation. Proc. R. Soc. A 439",
+      "url": "https://doi.org/10.1098/rspa.1992.0167"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
