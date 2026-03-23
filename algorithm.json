@@ -1,0 +1,28 @@
+{
+  "slug": "deutsch-jozsa",
+  "name": "Deutsch-Jozsa Algorithm",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "Determine whether a 3-bit Boolean function is constant or balanced in one query.",
+  "industries": [
+    "education"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "beginner",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 4,
+  "tags": [
+    "deutsch-jozsa",
+    "oracle",
+    "query-complexity"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 1992
+  }
+}
